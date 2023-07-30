@@ -9,5 +9,5 @@ public enum Platform: String, Codable, CaseIterable {
 	case ios = "IOS"
 	case macOs = "MAC_OS"
 	case tvOs = "TV_OS"
-	case visionOS = "VISION_OS"
+	case visionOs = "VISION_OS"
 }
