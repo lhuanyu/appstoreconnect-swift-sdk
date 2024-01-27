@@ -35,4 +35,5 @@ public enum ScreenshotDisplayType: String, Codable, CaseIterable {
 	case imessageAppIpadPro129 = "IMESSAGE_APP_IPAD_PRO_129"
 	case imessageAppIpad105 = "IMESSAGE_APP_IPAD_105"
 	case imessageAppIpad97 = "IMESSAGE_APP_IPAD_97"
+    case appAppleVisionPro = "APP_APPLE_VISION_PRO"
 }
