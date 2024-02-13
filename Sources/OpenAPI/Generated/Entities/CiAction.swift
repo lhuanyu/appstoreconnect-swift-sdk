@@ -60,6 +60,7 @@ public struct CiAction: Codable {
 		case ios = "IOS"
 		case tvos = "TVOS"
 		case watchos = "WATCHOS"
+        case visionos = "VISIONOS"
 	}
 
 	public init(name: String? = nil, actionType: CiActionType? = nil, destination: Destination? = nil, buildDistributionAudience: BuildAudienceType? = nil, testConfiguration: TestConfiguration? = nil, scheme: String? = nil, platform: Platform? = nil, isRequiredToPass: Bool? = nil) {
