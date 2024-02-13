@@ -49,7 +49,7 @@ public struct CiBuildRun: Codable, Identifiable {
 				self.message = try values.decodeIfPresent(String.self, forKey: "message")
 				self.author = try values.decodeIfPresent(CiGitUser.self, forKey: "author")
 				self.committer = try values.decodeIfPresent(CiGitUser.self, forKey: "committer")
-				self.webURL = try values.decodeIfPresent(URL.self, forKey: "webUrl")
+				self.webURL = try? values.decodeIfPresent(URL.self, forKey: "webUrl")
 			}
 
 			public func encode(to encoder: Encoder) throws {
